@@ -1,4 +1,4 @@
-# Switch Board
+# Deadman Switch Board
 
 The Switch Board is where deadman switches are managed. Switches can be created programmatically via deadman-switch libraries. The Switch Board is also where API keys are created and managed for access.
 
