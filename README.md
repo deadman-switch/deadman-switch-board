@@ -30,7 +30,7 @@ A time based deadman switch is implemented using EPOCH and a requested *frequenc
 
 Example usage:
 
-```
+```python
 import deadman
 import os
 
@@ -38,7 +38,7 @@ deadman_token = os.environ['DEADMAN_TOKEN']
 
 @deadman.switch(deadman_token, frequency="24hrs")
 async def run_update_my_business_logic(req, resp, update):
-   ---snip---
+
 ```
 
 ### Progmatic Objects
