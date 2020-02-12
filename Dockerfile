@@ -26,4 +26,4 @@ COPY . /code
 
 #  You most likely need to provide entrypoint to your app
 # ENTRYPOINT []
-CMD python /code/deadman-switch-board/services/deadman_switch_app.py
+CMD python /code/deadman-switch-board/service/deadman_switch_app.py
